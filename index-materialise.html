@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal  Page (Materialise)</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</head>
+<body>
+    <div class="brown lighten-4">
+    <div class="row red lighten-2 container section z-depth-5">
+       <div class="col center-align"><h2>{{user.fullName}}</h2></div> 
+        <img src={{user.photo}} width="200" class="responsive-img col z-depth-4 center-align teal lighten-2">
+    </div>
+    
+
+    <div class=" row section z-depth-5 container">
+        <h3 class="center-align">City To Visit: {{city.name}}</h3> 
+      <div class="row">
+       <div class="col"><img src="{{city.photo}}" width="250" class="responsive-img z-depth-3"></div>
+        <div class="col container">{{city.description}}</div>
+      </div>   
+    </div>
+
+    <div class="row section z-depth-5 container ">
+     <h3 class="center-align"> Foreign Language Of Interest: {{foreignLanguage.language}}</h3>
+     <p class="center-align">Stating my name, home, and age, in {{foreignLanguage.language}}.</p>
+     <table class="container highlight stripped z-depth-2">
+        <thead class="grey lighten-1">
+            <tr>
+                <th>English</p></th>
+                <th>{{foreignLanguage.language}}</th>
+            </tr>
+        </thead>
+        <tbody class="grey lighten-2">
+            {{#each foreignLanguage.phrases}}
+            <tr>
+                <td>{{englishPhrase}}</td>
+                <td>{{foreignLanguage}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+     </table>
+     </div>
+
+    <div class=" row container z-depth-5 section">
+<h3 class="center-align">Favourite subjects</h3>
+<p class="center-align"> <strong>Education Background:</strong> I studied {{education.qualification}} at the {{education.university}}.</p>
+<h4 class="center-align">My favourite subjects are:</h4>
+<div class="row col  center">
+    {{#each favouriteSubjects}}
+    <div class="col l4 m3">
+    <p>{{name}}</p> <p><img src={{description}} min-width="200" class=" z-depth-3 responsive-img center-align" ></p>
+</div>
+{{/each}}
+</div>
+</div>
+</div>
+</body>
+</html>

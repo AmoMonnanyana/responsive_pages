@@ -1,0 +1,41 @@
+{
+    "user" : {
+        "fullName": "Amogelang Monnanyana",
+        "photo" : "./pictures/myPicture.jpg"
+    },
+    "city" : {
+        "name" : "Paris",
+        "photo" : "./pictures/images11.jpg",
+        "description" : "I have always found Paris to be one of the effortlessly beautiful cities in the world. The Haussmann style of architecture used in the buildings give the city a lively, bright and lovely finish. Its rich culture, high tourist attraction, and overall impression of the people make it the perfect place for a classy vacation."
+    },
+    "foreignLanguage" : {
+        "language" : "French",
+        "phrases" : [{
+            "englishPhrase" : "My name is Amogelang Monnanyana.",
+            "foreignLanguage" : "Je m'appelle Amogelang Monnanyana."
+        },
+        {
+            "englishPhrase" : "I am from  Zeerust, a small town in South Africa.",
+            "foreignLanguage" : "Je viens de Zeerust, une petite ville d'Afrique du Sud."
+        }]
+    },
+    "education" : {
+        "qualification" : "BEng in Civil Engineering",
+        "university" : "University of Johannesburg"
+    },
+    "favouriteSubjects" : [
+        {
+            "name" : "Calculus",
+            "description" : "./pictures/calculus.png"
+        },
+        {
+            "name" : "Structural engineering",
+            "description" : "./pictures/structures.jpg"
+        },
+        {
+            "name" : "Geotechnical engineering",
+            "description" : "./pictures/geotech2.jpg"
+        }
+    ]
+}
+
