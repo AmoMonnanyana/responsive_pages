@@ -4,7 +4,7 @@ import data from './data.json';
 
 
 export default defineConfig({
-  base : '/responsive_webpages/',
+  base : '/responsive_pages/',
   build: {
       rollupOptions: {
           input : {
