@@ -26,15 +26,19 @@
     "favouriteSubjects" : [
         {
             "name" : "Calculus",
-            "description" : "./Pictures/calculus.png"
+            "photo" : "./Pictures/calculus.png",
+            "description":"I Studied calculus as a foundation subject for engineering. I found it fascinating as it helped me understand where most of our equations in engineering and physics came from."
         },
         {
+            "middle": true,
             "name" : "Structural engineering",
-            "description" : "./Pictures/structures.jpg"
+            "photo" : "./Pictures/structures.jpg",
+            "description": "Structural engineering is the displine of civil engineering concerned with the design and construction of structures such as buildings, roads, and bridges. It is the reason why I took interst in civil engineering because I always wondered how people managed to construct such huge and stable structures."
         },
         {
             "name" : "Geotechnical engineering",
-            "description" : "./Pictures/geotech2.jpg"
+            "photo" : "./Pictures/geotech2.jpg",
+            "description": "Geotechnical engineering is the discipline of civil engineering that deals with the foundation of structutres, monitors ground actvity and studies soil mechanics. It is my favourite as it is an intergration of engineering, geology, and environmental studies."
         }
     ]
 }

@@ -53,10 +53,10 @@
 <h3 class="center-align">Favourite subjects</h3>
 <p class="center-align"> <strong>Education Background:</strong> I studied {{education.qualification}} at the {{education.university}}.</p>
 <h4 class="center-align">My favourite subjects are:</h4>
-<div class="row col  center">
+<div class="row col">
     {{#each favouriteSubjects}}
     <div class="col l4 m3">
-    <p>{{name}}</p> <p><img src={{description}} min-width="200" class=" z-depth-3 responsive-img center-align" ></p>
+    <p>{{name}}</p> <p><img src={{photo}} width="250" class=" z-depth-3 responsive-img center-align" ></p> <p>{{description}}</p>
 </div>
 {{/each}}
 </div>

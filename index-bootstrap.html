@@ -54,18 +54,19 @@
     <p><strong>Education background:</strong> I studied {{education.qualification}} at the {{education.university}}.</p>
 
     <h3>My favourite subjects are:</h3>
-    <div class="mx-auto ">
-        <ol>
+    <ol>
+    <div class=" d-lg-inline-flex">
+       
         {{#each favouriteSubjects}}
-        <div class ="d-lg-inline-flex p-2">
-            <li>
-            <p>{{name}}</p> 
-            <p><img src={{description}} class="img-fluid d-block" width="250"></p>
-        </li>
+        <div class ="p-2 m-1">
+           <li><p>{{name}}</p>
+           <p><img src={{photo}} class="img-fluid d-block" width="250"></p>
+            <p>{{description}}</p></li>
         </div>
         {{/each}}
-        </ol>
+        
     </div>
+    </ol>
 </div>
      </section>
 </body>
